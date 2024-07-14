@@ -1,6 +1,6 @@
 import React from "react";
-import Img from "../assets/Images/crafting.png";
-import Img2 from "../assets/Images/craft-2.svg";
+import Img from "../assets/Images/unibo_pic.png";
+import Img2 from "../assets/Images/unibo1_of_logo.png";
 import Qoute from "../assets/Images/qoute.png";
 import "animate.css/animate.min.css";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -18,17 +18,17 @@ const Crafting = () => {
         </ScrollAnimation>
 
         <div
-          className="lg:m-0 m-auto lg:absolute p-5 mt-4 lg:mt-0  bg-[white] rounded-xl z-10 md:w-[280px]  w-[95%] lg:top-[240px] lg:left-[432px] lg:text-left text-center "
+          className="lg:m-6 lg:absolute p-3 mt-3 lg:mt-0 bg-[#ffffff] rounded-xl z-10 md:w-[250px]  w-[95%] lg:top-[210px] lg:left-[432px] lg:text-left text-center "
           style={{ boxShadow: " 0px 20px 50px 10px rgba(20, 61, 80, 0.15)" }}
         >
-          <h4 className="text-[#143D50] text-[14px] ">FEATURED CUSTOMER</h4>
-          <h2 className="lg:text-[24px] text-[20px]  text-[#091D4F] font-semibold">
-            Poway Unified School District
+          <h4 className="text-[#ec3f3f] text-[14px] ">FEATURED CUSTOMER</h4>
+          <h2 className="lg:text-[24px] text-[20px]  text-[#ec3f3f] font-semibold">
+            University of Bologna
           </h2>
           <p className="text-[16px] text-[#143D50]">
-            Michael Gizzo, High School Assistant Principal
+            Kalyango Jovan, Phd Candidate
           </p>
-          <img src={Img2} alt="" />
+          <img src={Img2} alt="" className="w-35 h-15"/>
         </div>
         <ScrollAnimation
           animateIn="animate__backInLeft"
@@ -39,7 +39,7 @@ const Crafting = () => {
           <img src={Qoute} alt="" />
 
           <p className="lg:text-[18px] text-[16px] mt-2 text-white">
-            "Using a single learning management system like Canvas LMS
+            "Using a single learning management system like <span className="text-[#E4060F]">Akademia</span> LMS
             streamlines content delivery and communications with students and
             families."
           </p>
@@ -54,12 +54,11 @@ const Crafting = () => {
           duration={1.2}
         >
         <h2 className="lg:text-[40px] text-[24px] md:text-[30px] font-semibold text-[#091D4F]">
-          Crafting Consistency with Canvas LMS
+          A Centralised learning point with <span className="text-[#E4060F]">Akademia</span> LMS
         </h2>
         <p className="text-[16px] text-[#143D50] ">
-          Discover how Poway Unified School District identified enduring digital
-          learning practices to prepare their students, teachers, and families
-          for the future with Canvas LMS.
+        Discover how the University of Bologna identified lasting digital learning 
+        practices to prepare their students, teachers, and families for the future with <span className="text-[#E4060F]">Akademia</span> LMS.
         </p>
         <button
           className="mt-8 px-6 w-fit rounded-full p-3 bg-[#091D4F] text-[white] font-semibold"
@@ -84,7 +83,7 @@ const Crafting = () => {
               <clipPath id="clip0_3_2563">
                 <rect
                   width="14"
-                  height="20.3"
+                  height="15.3"
                   fill="white"
                   transform="matrix(1 0 0 -1 0.310059 20.48)"
                 />

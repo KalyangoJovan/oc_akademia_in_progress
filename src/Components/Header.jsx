@@ -46,6 +46,7 @@ function Header() {
             <select name="" id="" className="bg-[#96D4F7] text-white p-2 rounded-full">
               <option value="">North America</option>
               <option value="">Europe</option>
+              <option value="">Africa</option>
             </select>
           </div>
 
@@ -88,7 +89,7 @@ function Header() {
               </svg>
             </div>
           </div>
-          <Link to="#" className="lg:inline block font-semibold  m-2">Try Studio Free</Link>
+          <Link to="#" className="lg:inline block font-semibold  m-2">Free Studio Here</Link>
           <Link to="#" className="lg:inline block font-semibold m-2">Support</Link>
           <Link to="#" className="lg:inline block font-semibold m-2">Contact Us</Link>
           <Link to="#" className="lg:inline block font-semibold  m-2 bg-[#96D4F7] text-white p-2 w-[120px] rounded-full h-fit text-center">Log In</Link>
@@ -97,8 +98,8 @@ function Header() {
 
       {/* Bottom section */}
       <div className="lg:flex lg:justify-between lg:items-center w-[100%] p-4 items-center lg:bg-transparent bg-white">
-        <div>
-          <img src={Logo} alt="Logo" className="h-12" />
+          <div className="lg:ml-14 ml-4">
+          <img src={Logo} alt="Logo" className="h-20 w-30" />
         </div>
 
         <div className="lg:flex items-center lg:w-[50%] justify-evenly mt-4 lg:mt-0">
@@ -108,7 +109,7 @@ function Header() {
           <Link to="#" className="lg:inline block font-medium  m-2">Resources</Link>
           <Link to="#" className="lg:inline block font-medium  m-2">News & Events</Link>
           <Link to="#" className="lg:inline block font-medium  m-2">About Us</Link>
-          <Link to="#" className="lg:inline block font-medium  m-2 bg-[#091D4F] text-white p-2 w-[120px] rounded-full h-fit text-center">Get a Studio</Link>
+          <Link to="#" className="lg:inline block font-medium  m-2 bg-[#091D4F] text-white p-2 w-[120px] rounded-full h-fit text-center">Get to Studio</Link>
         </div>
       </div>
     </div>

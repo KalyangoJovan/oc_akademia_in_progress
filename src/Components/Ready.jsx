@@ -16,7 +16,7 @@ const Ready = () => {
           className="mt-8 block m-auto px-6 w-fit rounded-full p-3 bg-[white] text-[#091D4F] font-semibold"
           style={{ boxShadow: " 0px 20px 50px 10px rgba(20, 61, 80, 0.15)" }}
         >
-          Let’s Get Started {" "}
+          Get Started {" "}
           <svg
             width="15"
             height="21"

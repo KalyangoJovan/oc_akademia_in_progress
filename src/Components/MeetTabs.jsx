@@ -31,7 +31,7 @@ function MeetTabs() {
             }
             onClick={() => handleTabClick(1)}
           >
-            Canvas
+            OC Akademia
           </div>
         </ScrollAnimation>
         <ScrollAnimation
@@ -48,7 +48,7 @@ function MeetTabs() {
             }
             onClick={() => handleTabClick(2)}
           >
-            Mastery
+            Studio
           </div>
         </ScrollAnimation>
         <ScrollAnimation
@@ -65,7 +65,7 @@ function MeetTabs() {
             }
             onClick={() => handleTabClick(3)}
           >
-            Impact
+            FutureWise
           </div>
         </ScrollAnimation>
       </div>
@@ -84,14 +84,13 @@ function MeetTabs() {
                 <img src={Logo} alt="" className="m-auto lg:m-0" />
              
                   <h2 className="text-[29px] text-[#091D4F] font-semibold">
-                    The World's #1 Teaching, Learning Software, Scholarships,
-                    University Bank
+                    The European Teaching, Learning Software, Scholarships,
+                    University Bank and more
                   </h2>
              
                   <p className="text-[16px] text-[#143D50]">
-                    The tools you need for teaching and learning in one place.
-                    Connection between teachers, students, and families,
-                    wherever learning happens with Canvas by Instructure.
+                  Find all the tools you need for teaching and learning in one place. Akademia by Jovanotti facilitates seamless 
+                  connections between teachers, students, and families, no matter where learning takes place.
                   </p>
 
                 <div className="flex justify-center lg:justify-start">
@@ -180,12 +179,12 @@ function MeetTabs() {
                 <img src={Logo} alt="" className="m-auto lg:m-0" />
 
                 <h2 className="lg:text-[29px] text-[22px] text-[#091D4F] font-semibold">
-                  Assessment. For Learning.
+                  Introdution, Assessment, Development, Learning and Production.
                 </h2>
                 <p className="text-[16px] text-[#143D50]">
-                  Bringing together the assessment tools and quality content
-                  educators need to drive learning outcomes with Mastery by
-                  Instructure.
+                Akademia Studio is the central hub where both new and experienced users can introduce themselves, edit content, record sessions,
+                follow courses, learn, and teach. Developed by Jovanotti, this platform is designed to foster a comprehensive and interactive learning environment. 
+                With Akademia Studio, users can seamlessly engage in a wide range of educational activities, making it an essential tool for enhancing teaching and learning experiences.
                 </p>
 
                 <div className="flex justify-center lg:justify-start">
@@ -241,9 +240,11 @@ function MeetTabs() {
                   Streamlined edtech adoption. Higher impact.
                 </h2>
                 <p className="text-[16px] text-[#143D50]">
-                  Improve technology adoption and evaluate the impact of
-                  educational technology, while helping faculty and students
-                  seamlessly navigate new platforms with Impact by Instructure.
+                  FutureWise is a powerful tool designed to streamline the adoption of educational technology and maximize its impact. 
+                  FutureWise enhances technology integration, enabling faculty and students 
+                  to seamlessly navigate new platforms. It also provides robust evaluation tools to assess the effectiveness of 
+                  educational technologies, ensuring higher impact and improved outcomes for all users. 
+                  FutureWise is your comprehensive solution for advancing edtech adoption and optimizing learning experiences.
                 </p>
 
                 <div className="flex justify-center lg:justify-start">

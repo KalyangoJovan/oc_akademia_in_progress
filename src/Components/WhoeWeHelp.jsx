@@ -39,10 +39,10 @@ const WhoeWeHelp = () => {
   return (
     <div className="container m-auto mt-10 lg:mt-0">
       <div className="lg:w-[35%] w-[95%] m-auto mt-5 lg:py-16 text-center animate-on-scroll">
-        <h4 className="text-[#143D50] text-[12px] font-medium ">WHO WE HELP</h4>
+        <h4 className="text-[#143D50] text-[12px] font-medium ">OUR TARGET</h4>
         <h2 className="lg:text-[40px] md:text-[35px] text-[24px]  text-[#091D4F] font-semibold">
-          Instructure Love for Every <br />
-          Level of Learning
+          Jovanotti Love active Learning for Every <br />
+          Level
         </h2>
       </div>
 
@@ -51,8 +51,8 @@ const WhoeWeHelp = () => {
           <img src={Help1} alt="" className="m-auto w-[55%]" />
           <h3 className="text-[#091D4F] text-[20px] lg:text-[30px] font-semibold">K-12</h3>
           <p className="lg:text-[16px] text-[14px] text-[#143D50]">
-            A lot changes between that K and that 12. Our platform supports
-            every student, at every stage, in any environment.
+          Dreams evolve between kindergarten and 12th grade.
+          Our platform supports every student, at every stage, in any environment.
           </p>
           <Link to="#" className="text-[#091D4F] tex-[16px]">
             Learn More{" "}
@@ -72,10 +72,10 @@ const WhoeWeHelp = () => {
           <img src={Help2} alt="" className="m-auto w-[55%]" />
           <h3 className="text-[#091D4F] text-[20px] lg:text-[30px] font-semibold">Higher Ed</h3>
           <p className="lg:text-[16px] text-[14px] text-[#143D50]">
-            Our solutions make educators
+            Our methods and solutions make educators
             more effective and students
-            more successful, both in school
-            and beyond.
+            more active and successful, both in school
+            and in real world.
           </p>
           <Link to="#" className="text-[#091D4F] tex-[16px]">
             Learn More{" "}
@@ -95,10 +95,8 @@ const WhoeWeHelp = () => {
           <img src={Help3} alt="" className="m-auto w-[55%]" />
           <h3 className="text-[#091D4F]text-[20px] lg:text-[30px] font-semibold">Professional Ed</h3>
           <p className="lg:text-[16px] text-[14px] text-[#143D50]">
-            To work is to learn. But when
-            work takes extra learning, our
-            tools make it extra intuitive,
-            engaging, and effective.
+          Working involves continuous learning. However, when the job demands additional learning,
+           our tools make it intuitive, engaging, and highly effective.
           </p>
           <Link to="#" className="text-[#091D4F] tex-[16px]">
             Learn More{" "}

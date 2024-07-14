@@ -7,26 +7,25 @@ const Banner = () => {
     <div className="container m-auto  Banner lg:h-[700px] h-[500px] mt-[82px] lg:mt-[195px]">
       <div className="m-auto ">
         <div
-          className="container px-8 lg:px-10 py-8 lg:py-14  rounded-2xl w-[95%] m-auto lg:m-0 lg:w-[500px] relative bg-[#fff] lg:left-60 animate__animated  animate__backInDown" 
+          className="container px-8 lg:px-10 py-8 lg:py-14  rounded-2xl w-[95%] m-auto lg:m-0 lg:w-[500px] relative bg-[#b5c2c8] lg:left-60 animate__animated  animate__backInDown" 
           style={{ boxShadow: " 0px 20px 50px 10px rgba(20, 61, 80, 0.15)" }}
         >
           <img src={Logo} alt="" />
           <h1 className="lg:text-[46px] text-[24px] py-2 lg:py-0 md:text-[35px] font-bold inika-bold text-[#091D4F] text-left">
-            Yes, You Can <br />
+            Yes, Dreams are delivered <br />
             with OC <span className="text-[#E4060F]">Akademia</span>{" "}
           </h1>
           <p className="text-[16px] text-[#143D50]">
-            Deliver dynamic learning experiences to every student, everywhere.
-            Take teaching and learning to the next level with Canvas, the #1
-            educational software, and the foundation of the Instructure Learning
-            Platform.
+          Every academic dream is brought to life through unique and personalized learning experiences tailored to each student, 
+          no matter where they are. Experience modern, customized teaching and learning with OC <span className="text-[#E4060F]">Akademia</span>, 
+          an advanced educational software and the flagship product of the Jovanotti Learning Platform.
           </p>
 
           <button
             className="mt-5 px-6 w-fit rounded-full p-3 bg-[#091D4F] text-white font-semibold"
             style={{ boxShadow: " 0px 20px 50px 10px rgba(20, 61, 80, 0.15)" }}
           >
-            Get a studio{" "}
+            Get To Studio{" "}
             <svg
               width="15"
               height="21"
